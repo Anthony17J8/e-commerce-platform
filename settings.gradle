@@ -1,0 +1,4 @@
+rootProject.name='e-commerce-platform'
+
+include('gateway')
+include('order-service')
