@@ -1,0 +1,15 @@
+-- CREATE TABLE catalog
+-- (
+--     product_id   UUID PRIMARY KEY,
+--     product_name TEXT      NOT NULL,
+--     created_at   TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+--     updated_at   TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+--     quantity     BIGINT    NOT NULL CHECK (quantity >= 0),
+--     price        MONEY     NOT NULL CHECK (price::numeric > 0)
+-- );
+--
+-- INSERT INTO catalog (product_name, quantity, price)
+-- VALUES ('Стол', 30, 20000.00),
+--        ('Кровать', 22, 45000.00),
+--        ('Клавиатура', 7, 12000.00)
+-- move to inventory-service
